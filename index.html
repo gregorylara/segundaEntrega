@@ -54,19 +54,23 @@
       </nav>
     </header>
     <main>
-      <h1>PartsInventory</h1>
-      <div class="name">
-        <label for="" class="form-label">Name </label>
-        <input type="text" name="Name" id="" />
+      <h1>Parts Inventory</h1>
+      <div class="input-group container-btn">
+        <input
+          id="text-input"
+          type="text"
+          class="form-control"
+          placeholder="Add your product here"
+          aria-label="Add your product here"
+          aria-describedby="basic-addon2"
+        />
+        <div class="input-group-append">
+          <button id="btn-add" class="btn btn-outline-secondary" type="button">
+            Add
+          </button>
+        </div>
       </div>
-      <div class="precio">
-        <label for="" class="form-label">Precio </label>
-        <input type="text" name="Precio" id="" />
-      </div>
-      <div class="cantidad">
-        <label for="" class="form-label">Cantidad </label>
-        <input type="text" name="Cantidad" id="" />
-      </div>
+      <ul id="prod-list"></ul>
     </main>
     <footer>
       <!-- place footer here -->
@@ -83,5 +87,6 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+    <script src="./main.js"></script>
   </body>
 </html>
