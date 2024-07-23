@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0 auto;
+  width: 30%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.precio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0 auto;
+  width: 30%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.cantidad {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0 auto;
+  width: 30%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
