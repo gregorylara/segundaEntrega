@@ -10,7 +10,7 @@ h1 {
 }
 
 .container-btn {
-  width: 400px;
+  width: 50%;
   display: flex;
   align-items: center;
   margin: 20px auto;
@@ -21,7 +21,7 @@ h1 {
 }
 #prod-list {
   padding: 20px;
-  width: 500px;
+  width: 50%;
   margin: 0 auto;
   border: 1px solid black;
   border-radius: 20px;
