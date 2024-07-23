@@ -43,9 +43,7 @@ h1 {
   width: 100%;
 }
 .delete-button {
-  background-color: red;
   color: black;
-  border: none;
   border-radius: 15px;
   padding: 5px;
   cursor: pointer;

@@ -24,7 +24,7 @@ const drawProducts = () => {
     let item = document.createElement("li");
     item.className = "list";
     item.innerHTML = `<span>${element.productName}</span>
-        <button class="delete-button">Delete</button>`;
+        <button class="delete-button btn btn-outline-danger">Delete</button>`;
     let deleteButton = item.querySelector(".delete-button");
     deleteButton.addEventListener("click", () => {
       deleteProduct(element);
